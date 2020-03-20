@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuPizzaComponent implements OnInit {
 
+
+  pizzas = ["Margarita", "Veggie", "Royale"]
   constructor() { }
 
   ngOnInit(): void {
